@@ -99,7 +99,6 @@ python manage.py test
 
 If you'd like to run the project in a Docker container, follow these steps:
 **Build the Docker Image:**
-   ```bash
    docker build -t my-django-app .
 **Run the Docker Container:**
   docker run -p 8000:8000 my-django-app
