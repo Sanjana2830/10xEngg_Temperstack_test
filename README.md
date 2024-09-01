@@ -50,7 +50,6 @@ After running the development server, you can access the API endpoints in your b
 - **API Index:** `http://127.0.0.1:8000/api/`
 
 Example to fetch all movies:
-```bash
 GET http://127.0.0.1:8000/api/movies/
 
 ## API Endpoints
@@ -62,7 +61,7 @@ GET http://127.0.0.1:8000/api/movies/
   `POST /api/movies/`
   
   Example Request:
-  ```bash
+  bash
   GET http://127.0.0.1:8000/api/movies/
 Retrieve/Update/Delete Movie
 GET /api/movies/{id}/
@@ -93,7 +92,7 @@ DELETE /api/movies/{id}/
 
 To run the automated tests, use the following command:
 
-```bash
+bash
 python manage.py test
 
 ## Docker Setup
